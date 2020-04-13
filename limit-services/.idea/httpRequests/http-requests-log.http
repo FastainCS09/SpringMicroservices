@@ -1,0 +1,29 @@
+GET http://localhost:8001/currency-exchange/from/{from}/to/{to}
+
+###
+
+GET http://localhost:8083/limits
+
+<> 2020-04-05T105646.200.json
+
+###
+
+GET http://localhost:8080/actuator/health/**
+Accept: application/vnd.spring-boot.actuator.v3+json
+
+<> 2020-04-05T023731.401.html
+
+###
+
+GET http://localhost:8080/actuator/health/**
+Accept: application/vnd.spring-boot.actuator.v3+json
+
+###
+
+GET http://localhost:8080/actuator/health
+Accept: application/vnd.spring-boot.actuator.v3+json
+
+<> 2020-04-05T010701.200.json
+
+###
+

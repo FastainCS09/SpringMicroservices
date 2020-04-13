@@ -1,0 +1,24 @@
+{
+  "groups": [
+    {
+      "name": "limit.services",
+      "type": "com.microservices.Configuration",
+      "sourceType": "com.microservices.Configuration"
+    }
+  ],
+  "properties": [
+    {
+      "name": "limit.services.maximum",
+      "type": "java.lang.Integer",
+      "sourceType": "com.microservices.Configuration",
+      "defaultValue": 0
+    },
+    {
+      "name": "limit.services.minimum",
+      "type": "java.lang.Integer",
+      "sourceType": "com.microservices.Configuration",
+      "defaultValue": 0
+    }
+  ],
+  "hints": []
+}
